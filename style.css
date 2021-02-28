@@ -1,35 +1,151 @@
-.nome{top:5px;right:30px;left:30px;text-align:center;background-color:#ffffff;margin-left: 5px;margin-right: 5px;}
-.foto_e_descricao {max-width: 100%; min-width: 30%;}
-.foto {width: 200px;position: absolute;top:70px;left:15px;background-color: #2fc18c;padding: 10px;}
-.descricaoT {position: absolute;top:45px;left:250px;right:10px}
-.descricao {position: absolute;top:85px;left:250px;right:100px;max-width: 100%;min-width:70% ;text-align: justify;}
-.skills {position:absolute;top:280px;left:15px;}
-.sobre {position: absolute;left: 250px; top:100}
+/*Atributos padrão do projeto*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: monospace;
+    font-size: 1.1em;
+    background-color: rgb(253, 251, 251);
+    line-height: 1.0;
+}
 
-.impar {color: #2fc18c}
+/*Atributos do cabeçalho*/
+header {
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(15, 127, 25, 255);
+    padding: 1px;
+    margin-bottom: 2px;
+    z-index: 10;
+    position: fixed;
+}
+/*Título central*/
+h1 {
+    color: rgb(253, 255, 255);
+    position: relative;
+    text-align: center;
+    z-index: 2;
+  }
+/*Barra de navegação*/
+nav {
+    position: fixed;
+    top: 3em;
+    left: 10px;
+    z-index: 5;
+  }
+/*Define como links devem parecer*/
+.links {
+    text-decoration:none;
+    margin-left: 2px;
+    padding: 5px;
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 127, 25, 255);
+}
 
-/* {
-margin: 0;
-padding: 0;
-}*/
+#minha_foto {
+    width:200px;
+    margin-top: 90px;
+    margin-left: 20px;
+    left: 40px;
+    z-index: 4;
+}
 
-/* Fonte de consulta para a origem da fonte "Ubuntu":https://fonts.google.com */
+/*Titulo superior*/
+#nome {
+    width:200px;
+    text-decoration:none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:rgb(15, 127, 25, 255);
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    z-index: 5;
+}
 
-/*Define a cor de background*/
-body {background-color:#ffffff}
-/*Define a cor da fonte para a página*/
-.tudo {color: #3b3b3b}
-body {font-family: 'Ubuntu Mono', monospace;}
-h2 {color: #2fc18c}
-h3 {color: #2fc18c}
-.texto {text-align: justify;}
-.programacao{color:#2fc18c}
-.sites {color:#2fc18c}
+/*Titulo superior e links*/
+#nome, a {
+    position: relative;
+    text-align: center;
+    text-decoration:none;
+    color: white
+}
 
-.indice {color:#2fc18c}
+#Corpo_da_sessao {
+    width: fit-content;
 
-/* Itens ímpar */
-/*Fonte de referência do código:https://gist.github.com/douglasmiranda/1270746 */
-.HGList :nth-child(odd){color:#2fc18c;}
+}
 
+.section_licoes_aprendidas {
+    width: 400px;
 
+   margin-left: 20px;
+    z-index: 4;
+}
+
+.section_licoes_a_aprender {
+    width: 400px;
+
+       margin-left: 20px;
+        z-index: 4;
+    }
+
+.textos_lado_a_lado {
+    width: fit-content;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.lado-esquerdo {
+    align-content: flex-start;  
+    max-width: 400px;
+    text-align: justify;
+    bottom: 7px ;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+ }
+
+.lado-direito {
+    max-width: 400px;
+    text-align: justify;
+    position: relative;
+    display: inline-block;
+}
+
+#rodape {
+    position: absolute;
+    padding: 0 px;
+    margin-top: 30x;
+    height: 7%;
+    width: 100%;
+    background-color:rgb(15, 127, 25, 255) ;
+    left: 0px;
+    right: 0px;
+    z-index: 8;
+}
+
+#rodape, a {
+align-items: baseline;
+}
+
+.tabela {
+margin-left: 20px;
+text-align: center;
+width: fit-content;
+display: inline-block;
+position: relative;
+bottom: 125px;
+}
+
+.link2 {
+    color: black;
+}
+
+.tabela_e_texto {
+display: inline-block;
+display: inline-block;
+}
